@@ -1,0 +1,39 @@
+* {
+  color: var(--text-white);
+}
+
+.active {
+    font-weight: 600;
+}
+
+.nav-link {
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.nav-link:hover {
+    background-color: var(--color-hover);
+}
+
+.nav-link:hover svg {
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.nav-link:active {
+    opacity: 0.7;
+    user-select: none;
+}
+
+.nav-link:active svg {
+    transform: scale(0.9);
+}
+
+#img-avatar img {
+    width: 100%;
+}
+
+#img-avatar {
+    width: 24px;
+    overflow: hidden;
+}

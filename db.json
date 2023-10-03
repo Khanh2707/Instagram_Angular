@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "KhanhTran",
+      "email": "Khanh@gmail.com",
+      "name": "Trần Khánh",
+      "password": "Khanh@123",
+      "role": "admin"
+    },
+    {
+      "id": "ThuanNguyen",
+      "email": "Thuan@gmail.com",
+      "name": "Thuận",
+      "password": "Thuan@123",
+      "role": "staff",
+      "follow": "[QuangAnh, LongNong]",
+      "follower": "[QuangAnh, LongNong]"
+    },
+    {
+      "id": "QuangAnh",
+      "email": "QuangAnh@gmail.com",
+      "name": "Quang Anh",
+      "password": "QuangAnh@123",
+      "role": "",
+      "follow": "[ThuanNguyen, LongNong]",
+      "follower": "[ThuanNguyen, LongNong]"
+    },
+    {
+      "id": "LongNong",
+      "email": "Long@gmail.com",
+      "name": "Long",
+      "password": "LongNong@123",
+      "role": "",
+      "follow": "[QuangAnh, ThuanNguyen]",
+      "follower": "[QuangAnh, ThuanNguyen]"
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "staff",
+      "name": "Staff"
+    }
+  ]
+}
